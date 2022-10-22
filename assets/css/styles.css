@@ -3,6 +3,22 @@
     --nav-text: rgb(35, 98, 88);
 }
 
+.no-padding {
+    padding: 0 !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.jumbo-style {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.main-bg {
+    background-color: var(--main-bg-colour);
+}
+
 @font-face {
     font-family: 'Megrim Medium';
     font-style: normal;
@@ -10,8 +26,21 @@
     src: local('Megrim Medium'), url('../font/Megrim.woff') format('woff');
 }
 
+.main-bg {
+    background-color: var(--main-bg-colour);
+}
+
 .page-header {
     background-color: var(--main-bg-colour);
+}
+
+.text-block {
+    background-color: #fff;
+}
+
+.jumbo-font {
+    font-family: 'Megrim Medium';
+    font-size: clamp(1rem, 0.0278rem + 3.1111vw, 2.75rem);
 }
 
 .header-font {
@@ -32,4 +61,55 @@
 
 .nav-bg {
     background-color: var(--main-bg-colour) !important;
+}
+
+.content-bg {
+    background-color: var(--main-bg-colour)
+}
+
+.text-header {
+    font-family: 'Megrim Medium', sans-serif;
+}
+
+
+.carousel-inner>.carousel-item>img {
+    max-height: 75vh;
+    object-fit: cover;
+}
+
+.carousel-block {
+    font-family: 'Anton', sans-serif;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    background-color: #fff;
+    width: 50%;
+    font-size: clamp(1rem, -0.7719rem + 5.6701vw, 3.75rem);
+    top: -4rem;
+    translate: 50%;
+    box-shadow: 4px 4px 4px #000;
+}
+
+.image-block {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    display: contents;
+}
+
+.text-block {
+    position: relative;
+    top: 1rem;
+    left: -3rem;
+    font-family: 'Anton', sans-serif;
+}
+
+.text-header {
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 2rem;
+}
+
+.text-body {
+    padding-left: 15%;
+    padding-right: 15%;
 }
