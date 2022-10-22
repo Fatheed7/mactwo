@@ -71,23 +71,15 @@
     font-family: 'Megrim Medium', sans-serif;
 }
 
-
-.carousel-inner>.carousel-item>img {
-    max-height: 75vh;
-    object-fit: cover;
+.mainSection {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
-.carousel-block {
-    font-family: 'Anton', sans-serif;
-    position: relative;
-    text-align: center;
-    z-index: 1;
-    background-color: #fff;
-    width: 50%;
-    font-size: clamp(1rem, -0.7719rem + 5.6701vw, 3.75rem);
-    top: -4rem;
-    translate: 50%;
-    box-shadow: 4px 4px 4px #000;
+
+.carousel-inner>.carousel-item>img {
+    max-height: 65vh;
+    object-fit: cover;
 }
 
 .image-block {
@@ -112,4 +104,18 @@
 .text-body {
     padding-left: 15%;
     padding-right: 15%;
+}
+
+.btn-row {
+    text-align: center;
+    margin-bottom: 10px !important;
+}
+
+.btn-open {
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+}
+
+.text-reset {
+    text-decoration: none;
 }
