@@ -1,0 +1,83 @@
+{% extends "base.html" %}{% block title %}Home | Mactwo Hairdressing{% endblock %}
+{%block content %}
+<div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-touch="false" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="{{ url_for('static', filename='img/averie-woodard-4nulm-JUYFo-unsplash.jpg')}}"
+                class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="{{ url_for('static', filename='img/george-bohunicky-qJKT2rMU0VU-unsplash.jpg')}}"
+                class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="{{ url_for('static', filename='img/theme-photos-SYXxlEP5KAA-unsplash.jpg')}}"
+                class="d-block w-100" alt="...">
+        </div>
+    </div>
+</div>
+<section>
+    <div class="container mainSection">
+        <div class="row no-gutters">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 no-padding">
+                <!--img-->
+                <img src="{{ url_for('static', filename='img/adam-winger-VjRpkGtS55w-unsplash.jpg')}}" alt="demo-img"
+                    class="img-fluid w-100">
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 no-padding">
+                <!--text-->
+                <div class="jumbotron jumbotron-fluid jumbo-style main-bg ">
+                    <div class="container">
+                        <h3 class="text-center jumbo-font">OPEN WHEN OTHERS AREN'T</h3>
+                        <hr>
+                        <p class="text-center">Offering appointment that suit you!</p>
+                        <p class="text-center">You can always request other times and we will do our best to
+                            accommodate you.</p>
+                        <p class="text-center">Mon: Closed</p>
+                        <p class="text-center">Tues: Closed</p>
+                        <p class="text-center">Wed: 3.30pm-10pm</p>
+                        <p class="text-center">Thurs: 10am-10pm alternating 3.30pm-10pm</p>
+                        <p class="text-center">Fri: alternating 10am-4pm</p>
+                        <p class="text-center">Sat: 8am-5pm</p>
+                        <p class="text-center">Sun: Closed</p>
+                        <div class="btn-row">
+                            <a role="button" href="https://www.fresha.com/providers/mactwo-nedodwqe?pId=254397"
+                                class="btn btn-light btn-open" target="_blank">Book Online</a>
+                            <a role="button" href=" tel:07817627227" class="btn btn-light btn-open">Get In
+                                Touch</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--2-->
+        <div class="row no-gutters">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 no-padding">
+                <!--text-->
+                <div class="jumbotron jumbotron-fluid jumbo-style main-bg ">
+                    <div class="container">
+                        <h3 class="text-center jumbo-font">
+                            Our Story</h3>
+                        <hr>
+                        <p class="text-center">Mactwo is the second generation of a family salon. Owned by Ilona,
+                            who herself has over 16 years of wide and varied experience, the business carries over
+                            three decades of salon expertise.</p>
+                        <p class="text-center">Central to the business is our brand choice Davines.</p>
+                        <p class="text-center">Davines is a premium ethically produced range of hair care and colour
+                            products. We as business strive to follow the same ethos as Davines has for
+                            environmental welfare. </p>
+                        <p class="text-center">We have a passion for quality, individuality and flexibilty and our
+                            aim is to fit our customers needs as best as we can, without compromising result</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 no-padding">
+                <!--img-->
+                <img src="{{ url_for('static', filename='img/jaroslav-devia-ILY7a3Zsxxs-unsplash.jpg')}}" alt="demo-img"
+                    class="img-fluid w-100">
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

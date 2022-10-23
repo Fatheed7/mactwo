@@ -1,0 +1,109 @@
+{% extends "base.html" %}{% block title %}Styling Services | Mactwo Hairdressing{% endblock %}
+{%block content %}
+<div class="container">
+    <div class="row justify-content-center style-content mt-4">
+        <div class="card mb-2 mt-2" style="max-width: 540px; margin-right: 1rem;">
+            <div class="row g-0 d-flex align-items-center h-100">
+                <div class="col-md-8">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Cut and Blow Dry</h5>
+                        <p class="card-text">Cut and blow dry service. Includes a full consulation with recommendation
+                            of home care routine, so you can recreate and maintain your hair at home.</p>
+                        <p class="card-text"><small class="text-muted">£31.50</small></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="{{ url_for('static', filename='img/haircut.webp')}}" class="img-fluid rounded-start"
+                        alt="...">
+                </div>
+            </div>
+        </div>
+        <div class="card mb-2 mt-2" style="max-width: 540px;">
+            <div class="row g-0 d-flex align-items-center h-100">
+                <div class="col-md-4">
+                    <img src="{{ url_for('static', filename='img/curly.webp')}}" class="img-fluid rounded-start"
+                        alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Curly Cut</h5>
+                        <p class="card-text">Curly cut service. Includes a full consultation with Ilona's curl on curl
+                            cut. We will recommend routines and products for your curls.</p>
+                        <p class="card-text"><small class="text-muted">From £31.50</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center style-content">
+        <div class="card mb-2 mt-2" style="max-width: 540px; margin-right: 1rem;">
+            <div class="row g-0 d-flex align-items-center h-100">
+                <div class="col-md-8">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Diamond Blow Dry</h5>
+                        <p class="card-text">Diamond blow dry is the next level of blow dry!</p>
+                        <p class="card-text">This includes everything
+                            the standard blow dry does, as well as a gloss treatment or hair treatment, then blow dried
+                            to your desired result.</p>
+                        <p class="card-text"><small class="text-muted">From £38</small></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="{{ url_for('static', filename='img/diamond.webp')}}" class="img-fluid rounded-start"
+                        alt="...">
+                </div>
+            </div>
+        </div>
+        <div class="card mb-2 mt-2 ml-2" style="max-width: 540px;">
+            <div class="row g-0 d-flex align-items-center h-100">
+                <div class="col-md-4">
+                    <img src="{{ url_for('static', filename='img/up.webp')}}" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8 ">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Hair Up</h5>
+                        <p class="card-text">Something special going on? Have your hair put up.</p>
+                        <p class="card-text">There are a number of ways to wear your hair. With this service the price
+                            and time can vary depending on the desired result.</p>
+                        <p class="card-text"><small class="text-muted">From £30</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="row justify-content-center style-content mb-4">
+        <div class="card mb-2 mt-2" style="max-width: 540px; margin-right: 1rem;">
+            <div class="row g-0 d-flex align-items-center h-100">
+                <div class="col-md-8">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Consultation</h5>
+                        <p class="card-text">We offer a consultation before every service. This is a conversation
+                            between you and the stylist that will be doing your hair.</p>
+                        <p class="card-text"><small class="text-muted">Free</small></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="{{ url_for('static', filename='img/consult.webp')}}" class="img-fluid rounded-start"
+                        alt="...">
+                </div>
+            </div>
+        </div>
+        <div class="card mb-2 mt-2 ml-2" style="max-width: 540px;">
+            <div class="row g-0 d-flex align-items-center h-100">
+                <div class="col-md-4">
+                    <img src="{{ url_for('static', filename='img/wedding.webp')}}" class="img-fluid rounded-start"
+                        alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Wedding Hair</h5>
+                        <p class="card-text">Please contact us for more information on wedding packages</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+{% endblock %}

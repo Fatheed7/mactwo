@@ -34,6 +34,11 @@
     background-color: var(--main-bg-colour);
 }
 
+.header-link {
+    text-decoration: none;
+    text-align: center;
+}
+
 .text-block {
     background-color: #fff;
 }
@@ -55,8 +60,8 @@
 }
 
 .sub-header-font {
-    color: #fff;
-    text-shadow: 2px 2px 2px var(--nav-text);
+    color: #000;
+    text-shadow: 3px 3px 3px #fff;
 }
 
 .nav-bg {
@@ -118,4 +123,18 @@
 
 .text-reset {
     text-decoration: none;
+}
+
+.style-content {
+    min-height: 300px;
+}
+
+.card {
+    -webkit-box-shadow: 2px 2px 2px 2px var(--main-bg-colour);
+    box-shadow: 2px 2px 2px 2px var(--main-bg-colour);
+}
+
+nav {
+    -webkit-box-shadow: 2px 2px 0px 2px #000;
+    box-shadow: 2px 2px 0px 2px #000;
 }
