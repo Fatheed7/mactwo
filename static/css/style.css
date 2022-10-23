@@ -34,10 +34,6 @@
     background-color: var(--main-bg-colour);
 }
 
-.header-link {
-    text-decoration: none;
-    text-align: center;
-}
 
 .text-block {
     background-color: #fff;
@@ -146,6 +142,19 @@ nav {
 
 .invisi-img {
     object-fit: contain !important;
+}
+
+.footer-text {
+    font-size: 1rem;
+    margin-top: 0;
+    line-height: 1.2;
+}
+
+.styling-text {
+    font-size: 1.25rem;
+    margin-top: 0;
+    line-height: 1.2;
+    font-weight: 500;
 }
 
 @media (max-width: 768px) {
