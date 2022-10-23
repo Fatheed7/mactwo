@@ -45,7 +45,7 @@
 
 .jumbo-font {
     font-family: 'Megrim Medium';
-    font-size: clamp(1rem, 0.0278rem + 3.1111vw, 2.75rem);
+    font-size: clamp(1.5rem, 0.8056rem + 2.2222vw, 2.75rem);
 }
 
 .header-font {
@@ -137,4 +137,19 @@
 nav {
     -webkit-box-shadow: 2px 2px 0px 2px #000;
     box-shadow: 2px 2px 0px 2px #000;
+}
+
+.home-img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.invisi-img {
+    object-fit: contain !important;
+}
+
+@media (max-width: 768px) {
+    .btn {
+        margin-bottom: 10px !important;
+    }
 }
