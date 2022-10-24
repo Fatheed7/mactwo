@@ -157,6 +157,11 @@ nav {
     font-weight: 500;
 }
 
+.footer-link {
+    text-decoration: none;
+    color: #000;
+}
+
 @media (max-width: 768px) {
     .btn {
         margin-bottom: 10px !important;
