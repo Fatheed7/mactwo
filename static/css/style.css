@@ -162,8 +162,18 @@ nav {
     color: #000;
 }
 
+.card-margin {
+    margin-right: 1rem;
+}
+
 @media (max-width: 768px) {
     .btn {
         margin-bottom: 10px !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .card-margin {
+        margin-right: 0;
     }
 }
